@@ -8,9 +8,10 @@ body {
 }
 
 .container{
-    width: 100%;
+    /* width: 80%; */
     height: 100%;
     overflow-y: scroll;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     /* scroll-snap-type: y mandatory; */
 }
@@ -23,7 +24,7 @@ header {
   width: 100%;
   justify-content: space-between;
   height: 60px;
-  padding: 10px 30px;
+  /* padding: 10px 30px; */
   font-size: 20px;
   z-index: 10;
   top: 0;
@@ -44,7 +45,6 @@ header .left{
 header .right{
     margin-right: 100px;
 }
-
 
 .logo{
     width: 130px;
@@ -74,7 +74,7 @@ header a:hover{
 .hero{
     background: linear-gradient(179deg, black, #333333);
     position: relative;
-    padding: 0 30px;
+    /* padding: 0 30px; */
     /* top: 70px; */
 }
 
@@ -159,7 +159,7 @@ section {
 }
 
 .collection{
-  padding: 0 30px;
+  /* padding: 0 30px; */
 }
 
 /* Video Section */
@@ -220,7 +220,7 @@ section {
 .about-us {
   /* background: #fff4e3; */
   background: linear-gradient(179deg, black, #333333);
-  padding: 0 30px;
+  /* padding: 0 30px; */
   text-align: center;
 }
 
@@ -258,7 +258,7 @@ section {
 .faqs {
   /* background-color: #fff4e3; */
   background: linear-gradient(179deg, black, #333333);
-  padding: 10px 30px;
+  /* padding: 10px 30px; */
   text-align: center;
 }
 
@@ -326,6 +326,7 @@ footer {
   justify-content: space-around;
   gap: 30px;
   margin-bottom: 20px;
+  margin-right: 40px;
 }
 
 .footer-logo {
@@ -424,7 +425,7 @@ footer {
 
   footer .footer-content {
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
   }
 
   footer .footer-logo {
@@ -480,7 +481,7 @@ footer {
   }
 
   .about-content .text {
-    width: 100%;
+    /* width: 100%; */
   }
 
   .video-section video {
@@ -515,6 +516,7 @@ footer {
 
   .hero .head {
     font-size: 28px;
+    margin: 15px;
   }
 
   .hero h2 {
@@ -523,6 +525,7 @@ footer {
 
   .hero p {
     font-size: 14px;
+    margin: 10px;
   }
 
   .button-container .contact-btn {
@@ -549,10 +552,13 @@ footer {
 
   .about-content .text {
     padding: 10px;
+    margin: 20px;
   }
 
   .faq-item {
     padding: 15px;
+    MARGIN-LEFT: 20PX;
+    MARGIN-RIGHT: 20PX;
   }
 
   .faq-item h3 {
@@ -564,7 +570,7 @@ footer {
   }
 
   footer {
-    padding: 20px;
+    /* padding: 20px; */
   }
 
   .footer-logo {
